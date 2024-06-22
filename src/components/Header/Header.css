@@ -1,0 +1,86 @@
+.header {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  height: max(90vh, 730px);
+  width: auto;
+}
+.header-white {
+  width: calc(100% - 70px);
+  padding-left: 70px;
+  padding-top: 150px;
+  height: calc(100% - 150px);
+  background-color: rgb(243, 235, 235);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.header-green {
+  width: 100%;
+  padding-top: 80px;
+  height: calc(730px - 80px);
+  background-color: #355233;
+  color: white;
+}
+.disc {
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.buy,
+.groc {
+  font-weight: bold;
+  font-size: 35px;
+  word-spacing: 8px;
+}
+.groc {
+  display: flex;
+  justify-content: left;
+  height: 50px;
+}
+.header-img {
+  width: 80px;
+  height: 150px;
+  transform: rotate(90deg);
+  position: relative;
+  bottom: 100%;
+  left: 7%;
+}
+.lorem {
+  margin-top: 5px;
+  width: 38vw;
+  font-size: 17px;
+  color: rgba(128, 128, 128, 0.385);
+}
+.shop {
+  display: flex;
+  margin-top: 5vh;
+}
+.shop button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 10vw;
+  background-color: #355233;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+.shop button:hover {
+  background-color: #658163a0;
+}
+.mid-img {
+  height: calc(100%);
+  width: calc(100% - 3vw);
+  position: relative;
+  right: 210px;
+  bottom: 100px;
+}
+.mid-img img {
+  width: 700px;
+}
